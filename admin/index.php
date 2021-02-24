@@ -5,18 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" href="image/logo.png">
-  <title>Seven Digital</title>
-  <link rel="stylesheet" href="dist/css/alt/style2.css">
-  <link rel="stylesheet" href="dist/css/alt/style.css">
-  <link rel="stylesheet" href="fontawesome/css/all.css">
+  <title>ກະຊວງສຶກສາທິການ</title>
+  <link rel="stylesheet" href="../dist/css/alt/style2.css">
+  <link rel="stylesheet" href="../dist/css/alt/style.css">
+  <link rel="stylesheet" href="../fontawesome/css/all.css">
 </head>
 
 <body>
     <div class="container">
       <div class="forms-container">
           <div class="signin-signup">
-              <form action="hrd/supply.php" class="sign-in-form">
-                <img src="image/logo.png" alt="" width="100px"><br>
+              <form action="main" class="sign-in-form">
+                <img src="../image/logo.png" alt="" width="100px"><br>
                 <h2 class="title">ເຂົ້າສູ່ລະບົບ</h2>
                   <div class="input-field">
                     <i class="fas fa-envelope"></i>
@@ -45,7 +45,7 @@
                   </div>
               </form>
 
-              <form action="hrd/supply.php" method="POST" id="formRegister" class="sign-up-form">
+              <form action="#" method="POST" id="formRegister" class="sign-up-form">
                 <h2 class="title">ລົງທະບຽນ</h2>
                   <div class="input-field">
                     <i class="fas fa-user"></i>
@@ -84,7 +84,7 @@
                 <button class="btn transparent" id="sign-up-btn">ໄປໜ້າລົງທະບຽນ</button>
               </div>
 
-              <img src="image/desk.svg" class="image" alt="">
+              <img src="../image/desk.svg" class="image" alt="">
             </div>
             <div class="panel right-panel">
               <div class="content">
@@ -93,7 +93,7 @@
                 <button class="btn transparent" id="sign-in-btn">ໄປໜ້າເຂົ້າສູ່ລະບົບ</button>
               </div>
 
-              <img src="image/register.svg" class="image" alt="">
+              <img src="../image/register.svg" class="image" alt="">
             </div>
       </div>
     </div>

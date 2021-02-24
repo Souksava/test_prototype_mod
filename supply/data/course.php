@@ -1,5 +1,5 @@
 <?php
-  $title = "ຈັດການປະເພດຟາຍ";
+  $title = "ຈັດການຂໍ້ມູນສາຂາວິຊາ";
   $path="../../";
   $links = "../";
   $session_path = "../../";
@@ -8,7 +8,7 @@
 
 
 <?php
-  include ("../../header-footer/header.php");
+
   if(isset($_POST['btnDelete'])){
     $obj->delete_category(trim($_POST['id']));
   }

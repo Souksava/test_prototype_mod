@@ -14,7 +14,6 @@ $user = 1;
 
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -328,123 +327,17 @@ elseif($user == 2){
             <!-- Add icons to the links using the .nav-icon class
    with font-awesome or any other icon font library -->
 
-   <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-book"></i>
-                    <p>
-                        ຈັດການຟາຍ
-                        <i class="fas fa-angle-left right"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'file/type" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ຈັດການປະເພດຟາຍ</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'file/upload" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ອັບໂຫຼດຟາຍ</p>
-                        </a>
-                    </li>
-                </ul>
-
-            </li>
-
-
-
-
-            <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-book"></i>
-                    <p>
-                        ຈັດການຂໍ້ມູນຫຼັກ
-                        <i class="fas fa-angle-left right"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'data/group" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ຈັດການຂໍ້ມູນກົມ</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'data/university" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ຈັດການຂໍ້ມູນມະຫາໄລ</p>
-                        </a>
-                    </li>
-                </ul>
-            </li>
 
             
             <li class="nav-item">
-                <a href="'.$links.'period/year" class="nav-link">
+                <a href="'.$links.'create/new-demand" class="nav-link">
                     <i class="fas fa fa-book nav-icon"></i>
                     <p>
-                        ເປີດສົກຮຽນ
+                        ສະເໜີແຜນສ້າງ
                     </p>
                 </a>
             </li>
 
-            <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-book"></i>
-                    <p>
-                        ແບ່ງປັນທຶນການສຶກສາ
-                        <i class="fas fa-angle-left right"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'divide/share" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ແບ່ງປັນທຶນ</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'divide/distribute" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ແຈກຢາຍທຶນ</p>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-book"></i>
-                    <p>
-                        ແກ້ໄຂການແຈກຢາຍ
-                        <i class="fas fa-angle-left right"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'edit/edit-share" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ແກ້ໄຂການແບ່ງປັນ</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'edit/edit-distribute" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ແກ້ໄຂການແຈກຢາຍ</p>
-                        </a>
-                    </li>
-                </ul>
-            </li>
 
             <li class="nav-item has-treeview">
                 <a href="#" class="nav-link">
@@ -454,14 +347,6 @@ elseif($user == 2){
                         <i class="fas fa-angle-left right"></i>
                     </p>
                 </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'report/report-supply" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ລາຍງານແຜນຮັບ</p>
-                        </a>
-                    </li>
-                </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="'.$links.'report/report-demand" class="nav-link">
@@ -511,118 +396,36 @@ elseif ($user == 3){
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-book"></i>
                     <p>
-                        ຈັດການຟາຍ
-                        <i class="fas fa-angle-left right"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'file/type" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ຈັດການປະເພດຟາຍ</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'file/upload" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ອັບໂຫຼດຟາຍ</p>
-                        </a>
-                    </li>
-                </ul>
-
-            </li>
-
-
-
-
-            <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-book"></i>
-                    <p>
                         ຈັດການຂໍ້ມູນຫຼັກ
                         <i class="fas fa-angle-left right"></i>
                     </p>
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="'.$links.'data/group" class="nav-link">
+                        <a href="'.$links.'data/faculty" class="nav-link">
                             <i class="far fas fa-book nav-icon"></i>
-                            <p>ຈັດການຂໍ້ມູນກົມ</p>
+                            <p>ຈັດການຂໍ້ມູນຄະນະ</p>
                         </a>
                     </li>
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="'.$links.'data/university" class="nav-link">
+                        <a href="'.$links.'data/course" class="nav-link">
                             <i class="far fas fa-book nav-icon"></i>
-                            <p>ຈັດການຂໍ້ມູນມະຫາໄລ</p>
+                            <p>ຈັດການຂໍ້ມູນສາຂາວິຊາ</p>
                         </a>
                     </li>
                 </ul>
-            </li>
 
-            
+            </li>
+ 
             <li class="nav-item">
-                <a href="'.$links.'period/year" class="nav-link">
+                <a href="'.$links.'create/new-supply" class="nav-link">
                     <i class="fas fa fa-book nav-icon"></i>
                     <p>
-                        ເປີດສົກຮຽນ
+                        ສ້າງແຜນຮັບ
                     </p>
                 </a>
-            </li>
-
-            <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-book"></i>
-                    <p>
-                        ແບ່ງປັນທຶນການສຶກສາ
-                        <i class="fas fa-angle-left right"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'divide/share" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ແບ່ງປັນທຶນ</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'divide/distribute" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ແຈກຢາຍທຶນ</p>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-book"></i>
-                    <p>
-                        ແກ້ໄຂການແຈກຢາຍ
-                        <i class="fas fa-angle-left right"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'edit/edit-share" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ແກ້ໄຂການແບ່ງປັນ</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'edit/edit-distribute" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ແກ້ໄຂການແຈກຢາຍ</p>
-                        </a>
-                    </li>
-                </ul>
             </li>
 
             <li class="nav-item has-treeview">
@@ -641,14 +444,7 @@ elseif ($user == 3){
                         </a>
                     </li>
                 </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'report/report-demand" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ລາຍງານແຜນສ້າງ</p>
-                        </a>
-                    </li>
-                </ul>
+
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="'.$links.'report/report-hrd" class="nav-link">
@@ -686,109 +482,26 @@ elseif ($user == 4){
             <!-- Add icons to the links using the .nav-icon class
    with font-awesome or any other icon font library -->
 
+   <li class="nav-item">
+   <a href="'.$links.'data/user" class="nav-link">
+   <i class="fas fa fa-book nav-icon"></i>
+   <p>
+   ຈັດການຂໍ້ມູນຜູ້ໃຊ້ລະບົບ
+   </p>
+   </a>
+</li>
+
    <li class="nav-item has-treeview">
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-book"></i>
                     <p>
-                        ຈັດການຟາຍ
+                        ແກ້ໄຂການແບ່ງປັນທຶນ
                         <i class="fas fa-angle-left right"></i>
                     </p>
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="'.$links.'file/type" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ຈັດການປະເພດຟາຍ</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'file/upload" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ອັບໂຫຼດຟາຍ</p>
-                        </a>
-                    </li>
-                </ul>
-
-            </li>
-
-
-
-
-            <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-book"></i>
-                    <p>
-                        ຈັດການຂໍ້ມູນຫຼັກ
-                        <i class="fas fa-angle-left right"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'data/group" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ຈັດການຂໍ້ມູນກົມ</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'data/university" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ຈັດການຂໍ້ມູນມະຫາໄລ</p>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            
-            <li class="nav-item">
-                <a href="'.$links.'period/year" class="nav-link">
-                    <i class="fas fa fa-book nav-icon"></i>
-                    <p>
-                        ເປີດສົກຮຽນ
-                    </p>
-                </a>
-            </li>
-
-            <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-book"></i>
-                    <p>
-                        ແບ່ງປັນທຶນການສຶກສາ
-                        <i class="fas fa-angle-left right"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'divide/share" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ແບ່ງປັນທຶນ</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'divide/distribute" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ແຈກຢາຍທຶນ</p>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-book"></i>
-                    <p>
-                        ແກ້ໄຂການແຈກຢາຍ
-                        <i class="fas fa-angle-left right"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'edit/edit-share" class="nav-link">
+                        <a href="'.$links.'edit/share" class="nav-link">
                             <i class="far fas fa-book nav-icon"></i>
                             <p>ແກ້ໄຂການແບ່ງປັນ</p>
                         </a>
@@ -796,47 +509,35 @@ elseif ($user == 4){
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="'.$links.'edit/edit-distribute" class="nav-link">
+                        <a href="'.$links.'edit/distribute" class="nav-link">
                             <i class="far fas fa-book nav-icon"></i>
                             <p>ແກ້ໄຂການແຈກຢາຍ</p>
                         </a>
                     </li>
                 </ul>
+
             </li>
 
-            <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-book"></i>
-                    <p>
-                        ລາຍງານ
-                        <i class="fas fa-angle-left right"></i>
-                    </p>
+
+            <li class="nav-item">
+                <a href="'.$links.'edit/edit-demand" class="nav-link">
+                <i class="fas fa fa-book nav-icon"></i>
+                <p>
+                    ແກ້ໄຂແຜນສ້າງນັກຮຽບ
+                </p>
                 </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'report/report-supply" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ລາຍງານແຜນຮັບ</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'report/report-demand" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ລາຍງານແຜນສ້າງ</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'report/report-hrd" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ລາຍງານການແບ່ງປັນ</p>
-                        </a>
-                    </li>
-                </ul>
             </li>
+
+            <li class="nav-item">
+            <a href="'.$links.'edit/edit-supply" class="nav-link">
+                <i class="fas fa fa-book nav-icon"></i>
+                <p>
+                    ແກ້ໄຂແຜນຮັບນັກຮຽບ
+                </p>
+            </a>
+        </li>
+
+
 
             <li class="nav-item">
                 <a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModal">
@@ -855,189 +556,9 @@ elseif ($user == 4){
 
     ';
 }else{
-    echo '
-    
-    <!-- Sidebar Menu -->
-    <nav class="mt-2">
-        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
-            data-accordion="false">
-            <!-- Add icons to the links using the .nav-icon class
-   with font-awesome or any other icon font library -->
-
-   <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-book"></i>
-                    <p>
-                        ຈັດການຟາຍ
-                        <i class="fas fa-angle-left right"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'file/type" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ຈັດການປະເພດຟາຍ</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'file/upload" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ອັບໂຫຼດຟາຍ</p>
-                        </a>
-                    </li>
-                </ul>
-
-            </li>
-
-
-
-
-            <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-book"></i>
-                    <p>
-                        ຈັດການຂໍ້ມູນຫຼັກ
-                        <i class="fas fa-angle-left right"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'data/group" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ຈັດການຂໍ້ມູນກົມ</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'data/university" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ຈັດການຂໍ້ມູນມະຫາໄລ</p>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            
-            <li class="nav-item">
-                <a href="'.$links.'period/year" class="nav-link">
-                    <i class="fas fa fa-book nav-icon"></i>
-                    <p>
-                        ເປີດສົກຮຽນ
-                    </p>
-                </a>
-            </li>
-
-            <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-book"></i>
-                    <p>
-                        ແບ່ງປັນທຶນການສຶກສາ
-                        <i class="fas fa-angle-left right"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'divide/share" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ແບ່ງປັນທຶນ</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'divide/distribute" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ແຈກຢາຍທຶນ</p>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-book"></i>
-                    <p>
-                        ແກ້ໄຂການແຈກຢາຍ
-                        <i class="fas fa-angle-left right"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'edit/edit-share" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ແກ້ໄຂການແບ່ງປັນ</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'edit/edit-distribute" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ແກ້ໄຂການແຈກຢາຍ</p>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-book"></i>
-                    <p>
-                        ລາຍງານ
-                        <i class="fas fa-angle-left right"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'report/report-supply" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ລາຍງານແຜນຮັບ</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'report/report-demand" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ລາຍງານແຜນສ້າງ</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="'.$links.'report/report-hrd" class="nav-link">
-                            <i class="far fas fa-book nav-icon"></i>
-                            <p>ລາຍງານການແບ່ງປັນ</p>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="nav-item">
-                <a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModal">
-                    <i class="nav-icon fas fa-power-off"></i>
-                    <p>
-                        ອອກຈາກລະບົບ
-                    </p>
-                </a>
-            </li>
-        </ul>
-        </nav>
-        <!-- /.sidebar-menu -->
-    </div>
-    <!-- /.sidebar -->
-</aside>
-
-    ';
+    echo '';
 }
 ?>
-
-
-
-
                 <form action="../Check/Logout.php" method="POST" id="formLogout">
                     <div class="modal fade font14" id="exampleModal" tabindex="-1" role="dialog"
                         aria-labelledby="exampleModalLabel" aria-hidden="true">
