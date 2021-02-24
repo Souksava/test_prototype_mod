@@ -9,7 +9,7 @@
 
 <?php
 
-  include ("../../header-footer/header.php");
+
   if(isset($_POST['btnDelete'])){
     $obj->delete_category(trim($_POST['id']));
   }
