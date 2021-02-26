@@ -7,6 +7,7 @@
 ?>
 
 
+
 <div class="row">
     <div class="col-xs-12 col-md-6">
       <div class="dropdown">
@@ -23,9 +24,6 @@
     </div>
 </div>
     <br>
-
-
-
     <div class="table-responsive2">
     <table id="detail_table" class="table-bordered" style="width: 3000px;">
             <tr>

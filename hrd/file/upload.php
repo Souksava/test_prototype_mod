@@ -5,9 +5,6 @@
   $session_path = "../../";
   include ("../../header-footer/header.php");
 ?>
-
-
-
 <?php
 
   if(isset($_POST['btnDelete'])){
@@ -43,7 +40,8 @@
                             <div class="row" align="left">
                                 <div class="col-md-12 col-sm-6 form-control2">
                                     <label>ຊື່ປະເພດສິນຄ້າ</label>
-                                    <input type="text" name="cate_name" id="cate_name" placeholder="ຊື່ປະເພດສິນຄ້າ" class="form-control">
+                                    <input type="text" name="cate_name" id="cate_name" placeholder="ຊື່ປະເພດສິນຄ້າ"
+                                        class="form-control">
                                     <i class="fas fa-check-circle "></i>
                                     <i class="fas fa-exclamation-circle "></i>
                                     <small class="">Error message</small>
@@ -60,121 +58,121 @@
                 </div>
             </div>
         </form>
-
-        <form action="category" id="formUpdate" method="POST" enctype="multipart/form-data">
-            <div class="modal fade" id="exampleModalUpdate" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">ແກ້ໄຂຂໍ້ມູນປະເພດສິນຄ້າ</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row" align="left">
-                                <div class="col-md-12 col-sm-6 form-control2">
-                                    <label>ຊື່ຫົວໜ່ວຍສິນຄ້າ</label>
-                                    <input type="hidden" name="cate_id_update" id="cate_id_update"
-                                        placeholder="ລະຫັດປະເພດສິນຄ້າ">
-                                    <input type="text" name="cate_name_update" id="cate_name_update"
-                                        placeholder="ຊື່ຫົວໜ່ວຍສິນຄ້າ" class="form-control">
-                                    <i class="fas fa-check-circle "></i>
-                                    <i class="fas fa-exclamation-circle"></i>
-                                    <small class="">Error message</small>
-                                </div>
+    </div>
+</div>
+    <form action="category" id="formUpdate" method="POST" enctype="multipart/form-data">
+        <div class="modal fade" id="exampleModalUpdate" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">ແກ້ໄຂຂໍ້ມູນປະເພດສິນຄ້າ</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row" align="left">
+                            <div class="col-md-12 col-sm-6 form-control2">
+                                <label>ຊື່ຫົວໜ່ວຍສິນຄ້າ</label>
+                                <input type="hidden" name="cate_id_update" id="cate_id_update"
+                                    placeholder="ລະຫັດປະເພດສິນຄ້າ">
+                                <input type="text" name="cate_name_update" id="cate_name_update"
+                                    placeholder="ຊື່ຫົວໜ່ວຍສິນຄ້າ" class="form-control">
+                                <i class="fas fa-check-circle "></i>
+                                <i class="fas fa-exclamation-circle"></i>
+                                <small class="">Error message</small>
                             </div>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-outline-secondary"
-                                data-dismiss="modal">ຍົກເລີກ</button>
-                            <button type="submit" name="btnUpdate" id="Update" class="btn btn-outline-success"
-                                onclick="">ແກ້ໄຂ</button>
-                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">ຍົກເລີກ</button>
+                        <button type="submit" name="btnUpdate" id="Update" class="btn btn-outline-success"
+                            onclick="">ແກ້ໄຂ</button>
                     </div>
                 </div>
             </div>
-        </form>
-    </div>
-</div>
-<div class="clearfix"></div><br>
-<div id="result"></div>
+        </div>
+    </form>
 
 
-<form action="category" id="formDelete" method="POST" enctype="multipart/form-data">
-    <div class="modal fade" id="exampleModalDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">ຢືນຢັນການລົບຂໍ້ມູນ</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body" align="center">
-                    <input type="hidden" name="id" id="id">
-                    ທ່ານຕ້ອງການລົບຂໍ້ມູນ ຫຼື ບໍ່ ?
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">ຍົກເລີກ</button>
-                    <button type="submit" name="btnDelete" class="btn btn-outline-danger">ລົບ</button>
+    <div class="clearfix"></div><br>
+    <div id="result"></div>
+
+
+    <form action="category" id="formDelete" method="POST" enctype="multipart/form-data">
+        <div class="modal fade" id="exampleModalDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">ຢືນຢັນການລົບຂໍ້ມູນ</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" align="center">
+                        <input type="hidden" name="id" id="id">
+                        ທ່ານຕ້ອງການລົບຂໍ້ມູນ ຫຼື ບໍ່ ?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">ຍົກເລີກ</button>
+                        <button type="submit" name="btnDelete" class="btn btn-outline-danger">ລົບ</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</form>
+    </form>
 
 
-<script type="text/javascript">
-const myform = document.getElementById('form1');
-const cate_name = document.getElementById('cate_name');
-myform.addEventListener('submit', (e) => {
-    e.preventDefault();
-    checkInputs();
-});
+    <script type="text/javascript">
+    const myform = document.getElementById('form1');
+    const cate_name = document.getElementById('cate_name');
+    myform.addEventListener('submit', (e) => {
+        e.preventDefault();
+        checkInputs();
+    });
 
-function checkInputs() {
-    const cate_nameValue = cate_name.value.trim();
+    function checkInputs() {
+        const cate_nameValue = cate_name.value.trim();
 
-    if (cate_nameValue === '') {
-        setErrorFor(cate_name, 'ກະລຸນາປ້ອນຊື່ປະເພດສິນຄ້າ');
-    } else {
-        setSuccessFor(cate_name);
+        if (cate_nameValue === '') {
+            setErrorFor(cate_name, 'ກະລຸນາປ້ອນຊື່ປະເພດສິນຄ້າ');
+        } else {
+            setSuccessFor(cate_name);
+        }
+        if (cate_nameValue !== '') {
+            document.getElementById("form1").action = "category";
+            document.getElementById("form1").submit();
+        }
     }
-    if (cate_nameValue !== '') {
-        document.getElementById("form1").action = "category";
-        document.getElementById("form1").submit();
-    }
-}
-</script>
+    </script>
 
-<script type="text/javascript">
-const myformUpdate = document.getElementById('formUpdate');
-const cate_id_update = document.getElementById('cate_id_update');
-const cate_name_update = document.getElementById('cate_name_update');
-myformUpdate.addEventListener('submit', (e) => {
-    e.preventDefault();
-    checkInputsUpdate();
-});
+    <script type="text/javascript">
+    const myformUpdate = document.getElementById('formUpdate');
+    const cate_id_update = document.getElementById('cate_id_update');
+    const cate_name_update = document.getElementById('cate_name_update');
+    myformUpdate.addEventListener('submit', (e) => {
+        e.preventDefault();
+        checkInputsUpdate();
+    });
 
-function checkInputsUpdate() {
-    const cate_name_updateValue = cate_name_update.value.trim();
-    if (cate_name_updateValue === '') {
-        setErrorFor(cate_name_update, 'ກະລຸນາປ້ອນລະຫັດປະເພດສິນຄ້າ');
-    } else {
-        setSuccessFor(cate_name_update);
+    function checkInputsUpdate() {
+        const cate_name_updateValue = cate_name_update.value.trim();
+        if (cate_name_updateValue === '') {
+            setErrorFor(cate_name_update, 'ກະລຸນາປ້ອນລະຫັດປະເພດສິນຄ້າ');
+        } else {
+            setSuccessFor(cate_name_update);
+        }
+        if (cate_name_updateValue !== '') {
+            document.getElementById("formUpdate").action = "category";
+            document.getElementById("formUpdate").submit();
+        }
     }
-    if (cate_name_updateValue !== '') {
-        document.getElementById("formUpdate").action = "category";
-        document.getElementById("formUpdate").submit();
-    }
-}
-</script>
+    </script>
 
-<!-- sweetalert -->
-<?php
+    <!-- sweetalert -->
+    <?php
   // check if name exist
   if(isset($_GET['name'])=='same'){
     echo'<script type="text/javascript">
@@ -228,55 +226,49 @@ function checkInputsUpdate() {
   }
 ?>
 
-<script>
-$(document).ready(function(){
+    <script>
+    $(document).ready(function() {
 
-  load_data("%%","0");
+        load_data("%%", "0");
 
-  function load_data(query,page)
-  {
-    $.ajax({
-      url:"fetch_category.php",
-      method:"POST",
-      data:{query:query,page:page},
-      success:function(data)
-      {
-        $('#result').html(data);
-      }
+        function load_data(query, page) {
+            $.ajax({
+                url: "fetch_category.php",
+                method: "POST",
+                data: {
+                    query: query,
+                    page: page
+                },
+                success: function(data) {
+                    $('#result').html(data);
+                }
+            });
+        }
+        $('#search').keyup(function() {
+            var page = "0";
+            var search = $(this).val();
+            if (search != '') {
+                load_data(search, page);
+            } else {
+                load_data('%%', page);
+            }
+        });
+        $(document).on('click', '.page-links', function() {
+            var page = this.id;
+            console.log(page);
+            var search = $('#search').val();
+            if (search != '') {
+                load_data(search, page);
+            } else {
+                load_data('%%', page);
+            }
+        });
     });
-  }
-  $('#search').keyup(function(){
-    var page = "0";
-    var search = $(this).val();
-    if(search != '')
-    {
-    load_data(search,page);
-    }
-    else
-    {
-      load_data('%%',page);
-    }
-  });
-  $(document).on('click', '.page-links', function(){    
-    var page = this.id;
-    console.log(page);
-    var search = $('#search').val();
-    if(search != '')
-    {
-      load_data(search,page);
-    }
-    else
-    {
-      load_data('%%',page);
-    }
-  });
-});
-
-</script>
+    </script>
 
 
 
 
-<?php
+    <?php
  include ("../../header-footer/footer.php");
 ?>
